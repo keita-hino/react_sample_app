@@ -25,7 +25,7 @@ class ViewProduct extends React.Component {
   render() {
     return (
       <div>
-        <span>{this.props.data.text}</span>
+        <span>{this.props.data.product}</span>
         <span className='deleteButton' onClick={this.handleDeleate}>X</span>
         <span>
           <input type="text" value={this.state.updateText} onChange={e => this.handleInput(e)} />
