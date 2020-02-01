@@ -1,5 +1,5 @@
 
-100.times do |i|
+3.times do |i|
   Product.create(
     {product: "馬#{i}"}
   )
